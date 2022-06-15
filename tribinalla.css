@@ -10,17 +10,17 @@ h1{
 }
 
 img{
-    max-width: 480px;
+    max-width: 200px;
     height:auto;
     margin:0 auto;
     
 }
-// div gallery image 
+
 div.gallery {
     margin: 5px;
     border: 1px solid #ccc;
-    float: right;
-    width: 280px;
+    float: left;
+    width: 180px;
   }
   
   div.gallery:hover {
@@ -33,11 +33,10 @@ div.gallery {
   }
   
   div.desc {
-    padding: 35px;
+    padding: 2px;
     text-align: center;
   }
 
-/////////////////////////////////
 /*nav bar*/
 .nav-class a{
     text-decoration: none;
@@ -49,7 +48,7 @@ div.gallery {
 .nav-class > ul{
     list-style-type: none;
     margin:0;
-    padding: 12px;
+    padding: 10px;
 }
 
 .nav-class > ul > li{
@@ -69,7 +68,15 @@ div.gallery {
     border-radius: 3px;
 }
  
-
+/*flex-container*/
+.flex-direction{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    align-content: space-between;
+    height: 700px;
+}
 /*flex-boxes*/
 .gallery{
     display: flexbox;
@@ -87,8 +94,13 @@ body{
     background-position-y: 50%;
     position: relative;
     background: rgba(230, 233, 231, 0.781);
-
+   /* background-image: url(logo.png) ;
+    background-repeat: no-repeat, repeat;
+    background-size: 233px;
+    background-position: center;
+    background-attachment: fixed;
 }
+*/
 
 /*
 body::before {
@@ -105,5 +117,4 @@ body::before {
     background-position:center;
     background-size: 400px;
 
-}
-*/
+}*/
