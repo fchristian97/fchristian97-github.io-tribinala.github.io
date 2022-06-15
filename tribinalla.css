@@ -32,12 +32,40 @@ div.desc {
   padding: 15px;
   text-align: center;
 }
+/////////////////////////////////
+/*flex-container*/
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: right;
+    width: 280px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 35px;
+    text-align: center;
+  }
 
-//flex-container
+
+
+
+////////////////////////////////
 .flex-direction{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: baseline;
+    align-content: space-between;
+    height: 700px;
 }
 
 /*nav bar*/
