@@ -54,7 +54,7 @@ div.gallery {
 .nav-class > ul > li{
     float: left;
     text-align: center;
-    width: 100%;
+    width: 20%;
     padding: auto;
     border-radius: 5px;
 } 
