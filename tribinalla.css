@@ -33,6 +33,13 @@ div.desc {
   text-align: center;
 }
 
+//flex-container
+.flex-direction{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 /*nav bar*/
 .nav-class a{
     text-decoration: none;
